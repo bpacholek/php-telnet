@@ -25,13 +25,13 @@ class PhpTelnet
      * Read timeout in seconds. Default = 10s
      * @var int
      */
-    protected $readTimeout = 2;
+    protected $readTimeout = 10;
 
     /**
      * Write timeout in seconds. Default = 10s
      * @var int
      */
-    protected $writeTimeout = 2;
+    protected $writeTimeout = 10;
 
     /**
      * Returns description of the last error or null if no error.
